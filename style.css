@@ -152,7 +152,7 @@ header .menu .but button .iconsbut{
 
 main .blockshop{
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: black;
 }
 
@@ -164,8 +164,8 @@ main .Sidorovich{
 }
 
 main .item{
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     margin: 0 auto;
     padding: 5px;
 }
