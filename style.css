@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&family=Shadows+Into+Light&family=Silkscreen&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    max-height:165px;
+	max-width: 100%;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.708);
+    box-shadow: rgba(255, 0, 0, 0.553) 0px 6px 24px 0px, rgba(255, 0, 0, 0.592) 0px 0px 0px 1px;
+
+}
+
+header .user{
+    height: 120px;
+    display: flex;
+    padding: 0.2em;
+}
+
+header .user .icons{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+header .user .icons .iconca{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+header .user .icons .iconca img{
+    width: 100%;
+    height: 100%;
+}
+
+header .user .icons .user_name{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(194, 18, 18, 0.73);
+    margin: 0 auto;
+}
+
+header .user .icons .user_name .inp{
+    width: 90%;
+    height: 0.5em;
+    text-align: center;
+    background: hsla(0, 80%, 50%, 0.755);
+    border: none;
+    outline: none;
+    color: azure;
+}
+
+header .user .statics{
+    height: 130px;
+    width: 160px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+header .user .statics .textstatic{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 0, 0, 0.753) 0px 3px 1em;
+}
+header .user .statics .text{
+    font-size: 10px;
+}
+
+
+header .user .statics .souls{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 0, 0, 0.753) 0px 3px 1em;
+}
+
+
+
+header .user .statics .ref{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 0, 0, 0.753) 0px 3px 1em;
+}
+
+header .user .statics .userlink{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 0, 0, 0.753) 0px 3px 1em;
+}
+
+header .menu{
+    width: 100%;
+    height: 25px;
+    padding-top: 1em;
+    display: flex;
+}
+
+header .menu .but{
+    height: 25px;
+    width: 25px;
+    margin: 0 auto;
+}
+header .menu .but button{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.708);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+header .menu .but button .iconsbut{
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+    transition: 0.5s;
+    color: #000000;
+}
+
+main .blockshop{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+main .Sidorovich{
+    height: 200px;
+    width: 90%;
+    background-color: blue;
+    margin: 10px auto;
+}
+
+main .item{
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+main .item .photo{
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
