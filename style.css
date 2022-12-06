@@ -3,6 +3,7 @@
 html,
 body {
     height: 100%;
+    max-width: 414px;
     margin: 0;
     background-color: black;
     font-family: 'Poppins', sans-serif;
